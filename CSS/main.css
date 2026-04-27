@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --dark-green: #2E391F;
+    --pink: #FACAD1;
+    --light-green: #788630;
+    --white: #F8F9F0;
+}
+
+h1 {
+    font-family: "am-novecento", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+p {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+a {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header {
+    background-color: var(--dark-green);
+    color: var(--pink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 15vw;
+}
+
+header a {
+    color: var(--pink);
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--dark-green);
+    color: var(--pink);
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 1vw 10vw;
+    /* flex-direction: row;
+    justify-content: space-evenly; */
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--pink);
+    font-style: italic;
+}
