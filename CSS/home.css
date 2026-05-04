@@ -1,0 +1,70 @@
+#hero {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: left;
+    padding: 5vw;
+    color: var(--white);
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw;
+    gap: 2vw;
+    background-color: var(--dark-green);
+    color: var(--pink);
+}
+
+#serve {
+    display: flex;
+    flex-direction: column;
+}
+
+#serve h1 {
+    color: var(--light-green);
+}
+
+#items {
+    display: grid;
+    grid-template-columns: repeat( 4 , 350px);
+    /* flex-wrap: nowrap; */
+    overflow-x: auto;
+    gap: 3vw;
+    margin: 2vw;
+}
+
+.serve-item {
+    /* width: 200px; */
+    aspect-ratio: 2/3;
+    justify-items: center;
+    align-content: flex-end;
+    /* background-color: var(--pink); */
+}
+
+button {
+    border: none;
+    padding: 1rem 2.5rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 2vw;
+    cursor: pointer;
+}
+
+#white {
+    background-color: var(--white);
+    color: var(--dark-green);
+}
+
+#green {
+    background-color: var(--dark-green);
+    color: var(--pink);
+    align-self: flex-end;
+}
