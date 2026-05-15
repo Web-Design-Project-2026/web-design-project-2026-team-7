@@ -21,11 +21,16 @@
     color: var(--dark-green);
 }
 
+#story img {
+    width: 100%;
+    height: auto;
+}
+
 #values {
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: var(--dark-green);
-    margin: 4vw 0;
+    /* margin: 4vw 0; */
 }
 
 #values h1 {
@@ -69,4 +74,9 @@
 #quality p {
     padding: 1.5vw;
     color: var(--dark-green);
+}
+
+#quality img {
+    width: 100%;
+    height: auto;
 }

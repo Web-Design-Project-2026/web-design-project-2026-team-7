@@ -1,3 +1,9 @@
+body {
+    background-image: url("../PHOTOS/bakery.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 #highlight div {
     background-color: var(--white);
     color: var(--dark-green);
@@ -11,6 +17,7 @@
     margin: 5vw 10vw;
     justify-content: center;
     align-items: center;
+    box-shadow:  rgba(0, 0, 0, 0.25) 2px 3px 4px;;
 }
 
 #menu {

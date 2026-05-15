@@ -54,6 +54,10 @@ header {
     padding: 1vw 15vw;
 }
 
+header img {
+    height: 6vh;
+}
+
 header a {
     color: var(--pink);
     text-decoration: none;
@@ -62,7 +66,7 @@ header a {
 footer {
     background-color: var(--dark-green);
     color: var(--pink);
-    padding: 2%;
+    /* padding: 2%; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -75,4 +79,22 @@ footer a {
     text-decoration: none;
     color: var(--pink);
     font-style: italic;
+}
+
+footer .middle img {
+    width: 60%;
+    height: auto;
+}
+
+footer .middle {
+    grid-column: 2;
+    padding: 0 0 0 5vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    /* align-items: center; */
+}
+
+footer .left img {
+    height: 1rem;
 }

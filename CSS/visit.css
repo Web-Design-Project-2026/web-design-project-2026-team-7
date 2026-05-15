@@ -1,3 +1,10 @@
+#hours {
+    background-image: url(../PHOTOS/visit-us-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 25vw 0;
+}
+
 #hours div {
     background-color: var(--white);
     box-shadow: rgba(0, 0, 0, 0.25) 2px 3px 4px;
@@ -8,7 +15,7 @@
     gap: 2vw;
     justify-self: center;
     padding: 2vw;
-    margin: 5vw 0;
+    /* margin: 5vw 0; */
     color: var(--dark-green);
 }
 
@@ -19,6 +26,7 @@
     background-color: var(--dark-green);
     color: var(--pink);
     padding: 0 5vw;
+    /* height: 50vh; */
 }
 
 #location h1 {
@@ -27,11 +35,23 @@
 
 #location p {
     grid-column: 1;
+    padding: 1vw 10vw;
 }
 
 #location #map {
     grid-column: 2;
-    justify-content: center
+    justify-content: center;
+    padding: 1vw 0;
+    align-content: center;
+}
+
+#location #map p {
+    padding: 0;
+}
+
+#location img {
+    width: 50%;
+    height: auto;
 }
 
 #contact {

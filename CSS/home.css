@@ -1,5 +1,5 @@
 #hero {
-    background-image: url("../images/hero.jpg");
+    background-image: url("../PHOTOS/landing-page-hero.jpg");
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -37,6 +37,7 @@
     overflow-x: auto;
     gap: 3vw;
     margin: 2vw;
+    scrollbar-width: none;
 }
 
 .serve-item {
@@ -45,6 +46,11 @@
     justify-items: center;
     align-content: flex-end;
     /* background-color: var(--pink); */
+}
+
+.serve-item img {
+    height: 100%;
+    border-radius: 2vw;
 }
 
 button {
