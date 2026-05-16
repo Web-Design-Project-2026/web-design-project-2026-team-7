@@ -138,6 +138,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1vw 15vw;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 header img {
