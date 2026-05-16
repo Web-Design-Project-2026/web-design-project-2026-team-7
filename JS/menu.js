@@ -29,7 +29,7 @@ function matcha() {
                         <p class="price">58</p>
                     </div>
                     <div class="menu-item">
-                        <p>• Uji Matcha Special (premium ceremonial)</p>
+                        <p>• Uji Matcha Special <br>(premium ceremonial)</p>
                         <p class="price">69</p>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ function coffee() {
                         <p class="price">39</p>
                     </div>
                     <div class="menu-item">
-                        <p>• Hand Drip Coffee (Japanese pour-over)</p>
+                        <p>• Hand Drip Coffee <br>(Japanese pour-over)</p>
                         <p class="price">65</p>
                     </div>
                 </div>
@@ -150,7 +150,7 @@ function bites() {
                 <div id="one">
                     <h1>SIGNATURE SANDOS</h1>
                     <div class="menu-item">
-                        <p>• Chili Oil Egg Drop - soft eggs with a gentle<br> chili heat</p>
+                        <p>• Chili Oil Egg Drop - soft eggs with a gentle chili heat</p>
                         <p class="price">79</p>
                     </div>
                     <div class="menu-item">
@@ -215,7 +215,7 @@ function treats() {
                         <p class="price">85</p>
                     </div>
                     <div class="menu-item">
-                        <p>• Berry Granola Bowl (vegan option available)</p>
+                        <p>• Berry Granola Bowl <br>(vegan option available)</p>
                         <p class="price">72</p>
                     </div>
                     <div class="menu-item">
@@ -249,7 +249,7 @@ function treats() {
                         <p class="price">68</p>
                     </div>
                     <div class="menu-item">
-                        <p>• Ube Cheesecake Slice - creamy purple sweet potato cheesecake with a soft earthy sweetness</p>
+                        <p>• Ube Cheesecake Slice - creamy purple sweet potato cheesecake<br> with a soft earthy sweetness</p>
                         <p class="price">74</p>
                     </div>
                     <div class="menu-item">

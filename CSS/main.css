@@ -18,11 +18,15 @@
 
 @media (min-width: 901px) {
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     p,h3,a {
-        font-size: 1rem;
+        font-size: 1.25rem;
+    }
+
+    button{
+        font-size: 1.25rem;
     }
 }
 
@@ -32,11 +36,15 @@
     }
 
     p, h3, a {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
+    }
+
+    button{
+        font-size: 1.5rem;
     }
 }
 
@@ -46,11 +54,15 @@
     }
 
     p,h3,a {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 2.25rem;
+        font-size: 2.5rem;
+    }
+
+    button{
+        font-size: 2rem;
     }
 }
 
@@ -60,7 +72,15 @@
     }
 
     p,h3,a {
-        font-size: 2rem;
+        font-size: 2.25rem;
+    }
+
+    h2 {
+        font-size: 2.75rem;
+    }
+
+    button{
+        font-size: 2.25rem;
     }
 }
 
@@ -136,15 +156,25 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    padding: 1vw 10vw;
+    padding: 5vw 10vw;
     /* flex-direction: row;
     justify-content: space-evenly; */
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer h3 {
+    padding-top: 0.5vw;
+    font-size: 1rem;
 }
 
 footer a {
     text-decoration: none;
     color: var(--pink);
     font-style: italic;
+    font-size: 1rem;
 }
 
 footer .middle img {

@@ -14,6 +14,8 @@
     flex-direction: column;
     gap: 1vw;
     justify-self: center;
+    align-content: center;
+    justify-content: center;
     padding: 2vw;
     /* margin: 5vw 0; */
     color: var(--dark-green);
@@ -35,7 +37,7 @@
 
 #location p {
     grid-column: 1;
-    padding: 1vw 4vw 1vw 12vw;
+    padding: 1vw 4vw 1vw 10vw;
 }
 
 #location #map {
@@ -50,7 +52,7 @@
 }
 
 #location img {
-    padding: 1.5vw 0 0 0;
+    padding: 2vw 0 0 0;
     width: 50%;
     height: auto;
 }
@@ -74,8 +76,12 @@
     display: flex;
     flex-direction: column;
     justify-content: top;
-    gap: 2vw;
+    gap: 0.5vw;
     padding: 5vw;
+}
+
+#contact #left h3 {
+    padding-top: 1vw;
 }
 
 #contact #contact-form {

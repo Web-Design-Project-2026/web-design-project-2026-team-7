@@ -18,7 +18,7 @@
 }
 
 #story p {
-    padding: 1.5vw;
+    padding: 0.5vw 1.5vw;
     color: var(--dark-green);
 }
 
@@ -45,7 +45,7 @@
     grid-column: 1;
     justify-self: left;
     align-self: top;
-    padding: 4vw 3vw 4vw 20vw;
+    padding: 4vw 3vw 4vw 23vw;
     color: var(--pink);
 }
 
@@ -53,7 +53,7 @@
     grid-column: 2;
     justify-self: left;
     align-self: top;
-    padding: 4vw 25vw 4vw 3vw;
+    padding: 4vw 23vw 4vw 3vw;
     color: var(--white);
 }
 
@@ -77,7 +77,7 @@
 }
 
 #quality p {
-    padding: 1.5vw;
+    padding: 0.5vw 1.5vw;
     color: var(--dark-green);
 }
 
