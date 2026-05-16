@@ -12,7 +12,7 @@
     aspect-ratio: 1/1;
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: 1vw;
     justify-self: center;
     padding: 2vw;
     /* margin: 5vw 0; */
@@ -22,10 +22,10 @@
 #location {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1vw 10vw;
+    gap: 1vw 5vw;
     background-color: var(--dark-green);
     color: var(--pink);
-    padding: 0 5vw;
+    padding: 0 7vw 4vw 7vw;
     /* height: 50vh; */
 }
 
@@ -35,14 +35,14 @@
 
 #location p {
     grid-column: 1;
-    padding: 1vw 10vw;
+    padding: 1vw 4vw 1vw 12vw;
 }
 
 #location #map {
     grid-column: 2;
     justify-content: center;
-    padding: 1vw 0;
-    align-content: center;
+    padding:1vw 0;
+    align-content: top;
 }
 
 #location #map p {
@@ -50,6 +50,7 @@
 }
 
 #location img {
+    padding: 1.5vw 0 0 0;
     width: 50%;
     height: auto;
 }
@@ -65,13 +66,14 @@
 
 #contact h1{
     color: var(--light-green);
+    padding: 0;
 }
 
 #contact #left {
     grid-column: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     gap: 2vw;
     padding: 5vw;
 }
@@ -80,7 +82,7 @@
     grid-column: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     gap: 2vw;
     padding: 5vw 0;
 }

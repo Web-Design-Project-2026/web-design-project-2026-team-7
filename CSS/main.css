@@ -4,6 +4,72 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 1190px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1090px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 901px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p,h3,a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    html{
+        font-size: 10px;
+    }
+
+    p, h3, a {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 750px) {
+    html{
+        font-size: 8px;
+    }
+
+    p,h3,a {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+}
+
+@media (max-width: 600px) {
+    html{
+        font-size: 6px;
+    }
+
+    p,h3,a {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html{
+        font-size: 4px;
+    }
+}
+
 html {
     --dark-green: #2E391F;
     --pink: #FACAD1;
@@ -22,21 +88,21 @@ h2 {
     font-family: "poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
 }
 
 h3 {
     font-family: "poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1rem;
+    /* font-size: 1rem; */
 }
 
 p {
     font-family: "poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1rem;
+    /* font-size: 1rem; */
 }
 
 a {
@@ -55,7 +121,7 @@ header {
 }
 
 header img {
-    height: 6vh;
+    height: 3rem;
 }
 
 header a {

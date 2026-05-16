@@ -74,7 +74,6 @@ function matcha() {
                 `;
 }
 
-
 function coffee() {
     menu.style.backgroundColor = "var(--pink)";
     menu.style.color = "var(--dark-green)";
@@ -151,7 +150,7 @@ function bites() {
                 <div id="one">
                     <h1>SIGNATURE SANDOS</h1>
                     <div class="menu-item">
-                        <p>• Chili Oil Egg Drop - soft eggs with a gentle chili heat</p>
+                        <p>• Chili Oil Egg Drop - soft eggs with a gentle<br> chili heat</p>
                         <p class="price">79</p>
                     </div>
                     <div class="menu-item">
@@ -166,11 +165,11 @@ function bites() {
                 <div id="two">
                     <h1>LIGHT BITES</h1>
                     <div class="menu-item">
-                        <p>• Onigiri Set - rice balls with seasonal fillings</p>
+                        <p>• Onigiri Set - rice balls with <br> seasonal fillings</p>
                         <p class="price">65</p>
                     </div>
                     <div class="menu-item">
-                        <p>• Onsen Egg Toast - soft-boiled egg on toast</p>
+                        <p>• Onsen Egg Toast - soft-boiled<br> egg on toast</p>
                         <p class="price">59</p>
                     </div>
                     <div class="menu-item">
