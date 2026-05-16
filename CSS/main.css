@@ -141,6 +141,11 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
+    height: 6rem;
+}
+
+body{
+    padding-top: 6rem;
 }
 
 header img {
@@ -169,7 +174,7 @@ footer p {
 }
 
 footer h3 {
-    padding-top: 0.5vw;
+    padding-top: 1vw;
     font-size: 1rem;
 }
 
@@ -183,6 +188,7 @@ footer a {
 footer .middle img {
     width: 60%;
     height: auto;
+    padding-top: 1vw;
 }
 
 footer .middle {

@@ -63,7 +63,7 @@ button {
     font-family: "poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     margin: 2vw;
     cursor: pointer;
 }
