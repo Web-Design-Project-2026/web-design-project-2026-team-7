@@ -29,6 +29,9 @@
 
 #serve h1 {
     color: var(--light-green);
+    margin: 0;
+    position: relative;
+    z-index: 1;
 }
 
 #items {
@@ -40,7 +43,27 @@
     scrollbar-width: none;
 }
 
-@media (min-width: 1091px) {
+@media (min-width: 1190px) {
+    #serve {
+        margin-top: -8vh;
+    }
+
+    #serve h1 {
+        top: 8vh;
+    }
+}
+
+@media(max-width: 1090px) {
+    #serve {
+        margin-top: -7vh;
+    }
+
+    #serve h1 {
+        top: 7vh;
+    }
+}
+
+@media (min-width: 1090px) {
     #items {
         grid-template-columns: repeat( 4 , 300px);
     }
@@ -50,11 +73,35 @@
     #items {
         grid-template-columns: repeat( 4 , 250px);
     }
+    #serve {
+        margin-top: -6.5vh;
+    }
+
+    #serve h1 {
+        top: 6.5vh;
+    }
+}
+
+@media (max-width: 900px) {
+    #serve {
+        margin-top: -5.5vh;
+    }
+
+    #serve h1 {
+        top: 5.5vh;
+    }
 }
 
 @media (max-width: 750px) {
     #items {
         grid-template-columns: repeat( 4 , 200px);
+    }
+    #serve {
+        margin-top: -4vh;
+    }
+
+    #serve h1 {
+        top: 4vh;
     }
 }
 
@@ -62,11 +109,25 @@
     #items {
         grid-template-columns: repeat( 4 , 150px);
     }
+    #serve {
+        margin-top: -3.2vh;
+    }
+
+    #serve h1 {
+        top: 3.2vh;
+    }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     #items {
         grid-template-columns: repeat( 4 , 100px);
+    }
+    #serve {
+        margin-top: -2.3vh;
+    }
+
+    #serve h1 {
+        top: 2.3vh;
     }
 }
 
