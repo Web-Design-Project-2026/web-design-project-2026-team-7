@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vw;
+    padding: 7vw 5vw;
     gap: 2vw;
     background-color: var(--dark-green);
     color: var(--pink);
@@ -32,6 +32,7 @@
     margin: 0;
     position: relative;
     z-index: 1;
+    left: 5vw;
 }
 
 #items {
@@ -43,24 +44,44 @@
     scrollbar-width: none;
 }
 
-@media (min-width: 1190px) {
+@media(min-width: 1490px ) {
     #serve {
-        margin-top: -8vh;
+        margin-top: -3.3rem;
     }
 
     #serve h1 {
-        top: 8vh;
+        top: 6.5rem;
     }
 }
 
-@media(max-width: 1090px) {
+@media (max-width: 1490px) {
     #serve {
-        margin-top: -7vh;
+        margin-top: -2.5rem;
     }
 
     #serve h1 {
-        top: 7vh;
+        top: 5rem;
     }
+}
+
+@media (max-width: 1390px) {
+    #serve {
+        margin-top: -2rem;
+    }
+
+    /* #serve h1 {
+        top: 4rem;
+    } */
+}
+
+@media(max-width: 1190px) {
+    #serve {
+        margin-top: -1.7rem;
+    }
+
+    /* #serve h1 {
+        top: 3.5rem;
+    } */
 }
 
 @media (min-width: 1090px) {
@@ -74,22 +95,22 @@
         grid-template-columns: repeat( 4 , 250px);
     }
     #serve {
-        margin-top: -6.5vh;
+        margin-top: -1.6rem;
     }
 
-    #serve h1 {
-        top: 6.5vh;
-    }
+    /* #serve h1 {
+        top: 3.3rem;
+    } */
 }
 
 @media (max-width: 900px) {
     #serve {
-        margin-top: -5.5vh;
+        margin-top: -1.3rem;
     }
 
-    #serve h1 {
-        top: 5.5vh;
-    }
+    /* #serve h1 {
+        top: 2.7rem;
+    } */
 }
 
 @media (max-width: 750px) {
@@ -97,12 +118,12 @@
         grid-template-columns: repeat( 4 , 200px);
     }
     #serve {
-        margin-top: -4vh;
+        margin-top: -1rem;
     }
 
-    #serve h1 {
-        top: 4vh;
-    }
+    /* #serve h1 {
+        top: 2rem;
+    } */
 }
 
 @media (max-width: 600px) {
@@ -110,12 +131,12 @@
         grid-template-columns: repeat( 4 , 150px);
     }
     #serve {
-        margin-top: -3.2vh;
+        margin-top: -0.8rem;
     }
 
-    #serve h1 {
-        top: 3.2vh;
-    }
+    /* #serve h1 {
+        top: 1.6rem;
+    } */
 }
 
 @media (max-width: 450px) {
@@ -123,12 +144,12 @@
         grid-template-columns: repeat( 4 , 100px);
     }
     #serve {
-        margin-top: -2.3vh;
+        margin-top: -0.6rem;
     }
 
-    #serve h1 {
-        top: 2.3vh;
-    }
+    /* #serve h1 {
+        top: 1.2rem;
+    } */
 }
 
 .serve-item {
