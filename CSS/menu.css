@@ -45,7 +45,7 @@ body {
     color: var(--dark-green);
     display: flex;
     flex-direction: column;
-    width: 27vw;
+    width: fit-content;
     aspect-ratio: 1/1;
     gap: 1rem;
     justify-self: right;

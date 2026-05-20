@@ -25,6 +25,7 @@
 #serve {
     display: flex;
     flex-direction: column;
+    background-color: var(--white);
 }
 
 #serve h1 {
