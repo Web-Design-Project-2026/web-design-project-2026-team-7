@@ -33,6 +33,7 @@
     position: relative;
     z-index: 1;
     left: 5vw;
+    width: 50%;
 }
 
 #items {
