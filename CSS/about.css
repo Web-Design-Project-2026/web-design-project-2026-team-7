@@ -1,3 +1,4 @@
+/* Story section */
 #story {
     display: grid;
     background-color: var(--white);
@@ -26,6 +27,7 @@
     height: auto;
 }
 
+/* Values section */
 #values {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -43,6 +45,7 @@
     margin:0;
 }
 
+/* Responsive design for values section */
 @media (min-width: 1190px) {
     #values {
         padding-top: -2rem;
@@ -138,6 +141,7 @@
     color: var(--white);
 }
 
+/* Quality section */
 #quality {
     display: grid;
     background-color: var(--white);
@@ -165,6 +169,7 @@
     height: auto;
 }
 
+/* Responsive design */
 @media(min-width: 800px){
     #quality div {
         margin: 0 8vw;

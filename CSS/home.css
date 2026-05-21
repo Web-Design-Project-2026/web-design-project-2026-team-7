@@ -22,6 +22,7 @@
     text-align: center;
 }
 
+/* Serving items section */
 #serve {
     display: flex;
     flex-direction: column;
@@ -37,6 +38,7 @@
     width: 50%;
 }
 
+/* Serving items scrollable container */
 #items {
     display: grid;
     /* flex-wrap: nowrap; */
@@ -46,6 +48,7 @@
     scrollbar-width: none;
 }
 
+/* Responsive design for serving items */
 @media(min-width: 1490px ) {
     #serve {
         margin-top: -3.3rem;

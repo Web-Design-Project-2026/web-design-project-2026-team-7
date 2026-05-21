@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Responsive font sizes */
 @media (max-width: 1190px) {
     html{
         font-size: 14px;
@@ -106,6 +107,7 @@
     }
 }
 
+/* CSS variables for color scheme */
 html {
     --dark-green: #2E391F;
     --pink: #FACAD1;
@@ -113,6 +115,7 @@ html {
     --white: #F8F9F0;
 }
 
+/* Heading styles */
 h1 {
     font-family: "am-novecento", sans-serif;
     font-weight: 400;
@@ -172,6 +175,8 @@ body{
     padding-top: 6rem;
 }
 
+
+/* Header design */
 header img {
     height: 4rem;
     padding-top: 6px;
@@ -186,6 +191,7 @@ header a {
     text-decoration: underline;
 }
 
+/* footer design */
 footer {
     background-color: var(--dark-green);
     color: var(--pink);
@@ -225,6 +231,7 @@ footer .left img {
     height: 1.5rem;
 }
 
+/* Font toggle button */
 #font {
     /* position: fixed;
     top: 6rem;
