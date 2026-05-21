@@ -1,4 +1,4 @@
-let niewiem = document.getElementById("changefont");
+let bar = document.getElementById("changefont");
 let fontChange = document.getElementById("font");
 fontChange.addEventListener("click", open);
 let change = document.getElementById("not");
@@ -12,15 +12,15 @@ function attachEvents() {
 }
 
 function open() {
-  if (niewiem.classList.contains("open")) {
-    niewiem.classList.toggle("open");
-    niewiem.innerHTML = `
+  if (bar.classList.contains("open")) {
+    bar.classList.toggle("open");
+    bar.innerHTML = `
         <button id="font">Aa</button>
         `;
     attachEvents();
   } else {
-    niewiem.classList.toggle("open");
-    niewiem.innerHTML = `
+    bar.classList.toggle("open");
+    bar.innerHTML = `
         <button id="font">Aa</button>
         <div class="deafult">
             <button id="active">Default</button>
@@ -33,7 +33,7 @@ function open() {
 function differFont() {
   let change = document.getElementById("not");
   if (change.innerHTML == `Readable`) {
-    niewiem.innerHTML = `
+    bar.innerHTML = `
         <button id="font">Aa</button>
         <div class="deafult">
             <button id="not">Default</button>
@@ -42,7 +42,7 @@ function differFont() {
     attachEvents();
     makeFont();
   } else {
-    niewiem.innerHTML = `
+    bar.innerHTML = `
         <button id="font">Aa</button>
         <div class="deafult">
             <button id="active">Default</button>
