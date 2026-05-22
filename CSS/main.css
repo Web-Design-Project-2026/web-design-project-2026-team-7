@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Responsive font sizes */
+@media (max-width: 1190px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1090px){
+    html{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 901px) {
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    p,h3,a,li,input::placeholder, textarea::placeholder, input, textarea {
+        font-size: 1.25rem;
+    }
+
+    button{
+        font-size: 1.25rem;
+    }
+
+    footer p, footer h3, footer a {
+    font-size: 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    html{
+        font-size: 10px;
+    }
+
+    p, h3, a,li, input::placeholder, textarea::placeholder, input, textarea {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    button{
+        font-size: 1.5rem;
+    }
+
+    footer p, footer h3, footer a {
+    font-size: 1rem;
+    }
+}
+
+@media (max-width: 750px) {
+    html{
+        font-size: 8px;
+    }
+
+    p,h3,a,li,input::placeholder, textarea::placeholder, input, textarea {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    button{
+        font-size: 2rem;
+    }
+
+    footer p, footer h3, footer a {
+    font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    html{
+        font-size: 6px;
+    }
+
+    p,h3,a,li,input::placeholder, textarea::placeholder, input, textarea {
+        font-size: 2.25rem;
+    }
+
+    h2 {
+        font-size: 2.75rem;
+    }
+
+    button{
+        font-size: 2.25rem;
+    }
+
+    footer p, footer h3, footer a {
+    font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html{
+        font-size: 4px;
+    }
+}
+
+/* CSS variables for color scheme */
+html {
+    --dark-green: #2E391F;
+    --pink: #FACAD1;
+    --light-green: #788630;
+    --white: #F8F9F0;
+}
+
+/* Heading styles */
+h1 {
+    font-family: "am-novecento", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.readable {
+    font-family: "azo-sans-uber", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* font-size: 1.5rem; */
+}
+
+h3 {
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    /* font-size: 1rem; */
+}
+
+p,li {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* font-size: 1rem; */
+    text-wrap: pretty;
+}
+
+a {
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header {
+    background-color: var(--dark-green);
+    color: var(--pink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 10vw;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 6rem;
+    z-index: 2;
+}
+
+body{
+    padding-top: 6rem;
+}
+
+
+/* Header design */
+header img {
+    height: 4rem;
+    padding-top: 6px;
+}
+
+header a {
+    color: var(--pink);
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* footer design */
+footer {
+    background-color: var(--dark-green);
+    color: var(--pink);
+    /* padding: 2%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 5vw 10vw;
+    /* flex-direction: row;
+    justify-content: space-evenly; */
+}
+
+footer h3 {
+    padding-top: 1vw;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--pink);
+    font-style: italic;
+}
+
+footer .middle img {
+    width: 60%;
+    height: auto;
+    padding-top: 1vw;
+}
+
+footer .middle {
+    grid-column: 2;
+    padding: 0 0 0 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .left img {
+    height: 1.5rem;
+}
+
+/* Font toggle button */
+#font {
+    /* position: fixed;
+    top: 6rem;
+    right: 0rem; */
+    margin: 0;
+    /* margin-top: 1rem; */
+    padding: 1rem;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: var(--pink);
+    color: var(--dark-green);
+    border: none;
+    cursor: pointer;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#changefont {
+    background-color: var(--pink);
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    position: fixed;
+    top: 6rem;
+    right: 0rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.deafult {
+    background-color: var(--dark-green);
+    border-radius: 1.4rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.deafult button {
+    border-radius: 1.2rem;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: var(--dark-green);
+    color: var(--pink);
+    padding: 0.1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    margin:0;
+}
+
+#active {
+    background-color: var(--pink);
+    color: var(--dark-green);
+}
